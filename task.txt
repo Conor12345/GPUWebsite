@@ -1,0 +1,18 @@
+Explain the purpose of GPUs and what applications they are used for (you need to understand how GPUs are used to aid graphics,
+but also other applications for example their use in modeling, data mining, etc.).
+
+You should describe the benefits of using GPUs and why they are suited to certain tasks.
+
+Describe what is meant by a parallel system and the benefits and limitations of parallel processing. (give examples)
+
+Describe how parallel processing can be achieved through different (i.e. multiple processors in the same computer or distributed across multiple cores in a CPU or GPU).
+
+Describe the benefits of a multicore system in terms of parallel processing and running multiple programs at the same time.
+
+I am expecting your websites to contain good use of CSS - including using classes and ID's to format sections and tags appropriately.
+
+Pages
+ - Home/What are GPUs?
+ - Benefits & Limitations of GPUs
+ - Parallel systems
+ - Benefits & Limitations of parallel systems
