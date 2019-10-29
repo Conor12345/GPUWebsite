@@ -60,3 +60,8 @@ a.selected {
     padding: 20px 50px;
     border-radius: 10px;
 }
+
+.size {
+    width:50%;
+    height:50%;
+}
