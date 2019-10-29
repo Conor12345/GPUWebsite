@@ -4,7 +4,7 @@ body {
 	margin: 0;
     padding: 5px 100px;
 	font-family: "Light", Roboto, serif;
-	background: linear-gradient(-45deg, #00eeee, #3de4e7, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #008b8b, #3de4e7, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -26,6 +26,7 @@ h1 {
     padding: 20px 20px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px rgba(85, 85, 85, 0.21);
 }
 
 h2 {
@@ -38,12 +39,12 @@ a {
 }
 
 a:hover {
-    color: #797979;
+    color: #616161;
     text-decoration: none;
 }
 
 a.selected {
-    color: #797979;
+    color: #616161;
 }
 
 .center {
@@ -69,9 +70,10 @@ a.selected {
     background: #e3e3e3;
     padding: 20px 50px;
     border-radius: 10px;
+    box-shadow: 5px 5px rgba(85, 85, 85, 0.21);
 }
 
 .size {
-    width:50%;
-    height:50%;
+    width:30%;
+    height:auto;
 }
