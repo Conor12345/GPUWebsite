@@ -9,7 +9,7 @@
 <h1>
     <a href="index.html">What are GPUs?</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="gpu_benefits.html">Benefits & Limitations of GPUs</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a class="selected" href="parallel_systems.html">Parallel Sytems</a> &nbsp;&nbsp;| &nbsp;&nbsp;
+    <a class="selected" href="parallel_systems.html">Parallel Systems</a> &nbsp;&nbsp;| &nbsp;&nbsp;
     <a href="parallel_benefits.html">Benefits & Limitations of Parallel Systems</a>
 </h1>
 <div class="back">
@@ -20,7 +20,23 @@
     </p>
     <h2>How do Parallel Systems work?</h2>
     <img class="center size" src="parallelcomputing.jpg">
+    <p>
+        Parallel systems work by breaking down large tasks into smaller ones it can run silmultaneously using different processing cores (or in some cases different processors). This process is very
+        complex as each sub task may need data from other tasks which have not yet been completeed. This complexity has led to parallel processing being underutilized in may consumer processors with
+        most software only able to utilize a few cores at once. In enterprise, parallel systems are widely used due to the vast amount of data and time sensitive nature of their work, this had led to
+        many companies building vast super computers containting a huge amount of processors so that they can run massively parallel software.
+    </p>
+
+    <h2>Types of parallel systems</h2>
+    <ul>
+        <li><b>Multicore</b> - Single computer containing single processor with multiple processing cores. Primarily used for multitasking as most consumer software cannot properly utilize many cores.
+        </li>
+        <li><b>Multiprocessor</b> - Many processors in a single computer or spread over many computers which are connected together via a network. These are very rare in consumer devices due to the
+            cost and complexity but common in enterprise when specialized software is already in use and able to be optimized.
+        </li>
+    </ul>
     <br>
 </div>
+<br>
 </body>
 </html>

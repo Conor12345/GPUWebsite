@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    background-color: #000000;
-    background-image: url(circuitboard.jpg);
-    font-family: "Light", Roboto, serif;
+	margin: 0;
     padding: 5px 100px;
-    font-size: 16px;
-    margin: 0;
-    color: black;
-    text-align: left;
+	font-family: "Light", Roboto, serif;
+	background: linear-gradient(-45deg, #00eeee, #3de4e7, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h1 {

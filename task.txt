@@ -16,3 +16,15 @@ Pages
  - Benefits & Limitations of GPUs
  - Parallel systems
  - Benefits & Limitations of parallel systems
+
+
+ body {
+    background-color: #000000;
+    background-image: url(circuitboard.jpg);
+    font-family: "Light", Roboto, serif;
+    padding: 5px 100px;
+    font-size: 16px;
+    margin: 0;
+    color: black;
+    text-align: left;
+}
