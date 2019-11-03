@@ -10,21 +10,3 @@ Describe how parallel processing can be achieved through different (i.e. multipl
 Describe the benefits of a multicore system in terms of parallel processing and running multiple programs at the same time.
 
 I am expecting your websites to contain good use of CSS - including using classes and ID's to format sections and tags appropriately.
-
-Pages
- - Home/What are GPUs?
- - Benefits & Limitations of GPUs
- - Parallel systems
- - Benefits & Limitations of parallel systems
-
-
- body {
-    background-color: #000000;
-    background-image: url(circuitboard.jpg);
-    font-family: "Light", Roboto, serif;
-    padding: 5px 100px;
-    font-size: 16px;
-    margin: 0;
-    color: black;
-    text-align: left;
-}
